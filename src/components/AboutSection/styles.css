@@ -1,0 +1,11 @@
+.aboutContainer {
+  float: right;
+  width: 245px;
+  text-align: right;
+  padding: 0px 8px 0px 0px;
+
+  color: #FC4A1A;
+  font-size: 28px;
+  font-weight: lighter;
+  font-family: sans-serif;
+}

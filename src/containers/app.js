@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react'
+import AboutSection from '../components/AboutSection/index'
 import ProfileImage from '../components/ProfileImage/index'
 
 import styles from './styles.css'
@@ -13,6 +14,7 @@ export default class App extends React.Component {
       <div className={[styles.fullWindow]}>
         <div className={[styles.sidebar]}>
           <ProfileImage />
+          <AboutSection />
         </div>
         <div className={[styles.content]}>
           {this.props.children}
