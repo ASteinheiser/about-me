@@ -1,0 +1,11 @@
+.descriptionContainer {
+  width: 700px;
+  margin: 10px;
+}
+
+.descriptionText {
+  color: #DCD0C0;
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: 30px;
+}

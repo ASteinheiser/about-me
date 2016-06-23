@@ -1,0 +1,9 @@
+.image {
+  height: 275px;
+  width: 275px;
+  margin: 50px 9px;
+
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #373737;
+}

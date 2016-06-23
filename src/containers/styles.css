@@ -1,0 +1,23 @@
+.fullWindow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar {
+  background: #C0B283;
+
+  float: left;
+  height: 100%;
+  width: 300px;
+}
+
+.content {
+  background: #373737;
+
+  float: left;
+  height: 100%;
+  width: calc(100% - 300px);
+}
