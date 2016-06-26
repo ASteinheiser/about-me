@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react'
-import classnames from 'classnames'
+import TopNavTab from '../TopNavTab/index'
 
 import styles from './styles.css'
 
@@ -7,26 +7,19 @@ const propTypes = {
   children: PropTypes.element.isRequired,
 }
 
-class TopNav extends React.Component {
+export default class TopNav extends React.Component {
+
+  componentWillMount() {
+    // console.log(window.location)
+  }
 
   render() {
-    const tabStyles = classnames(
-      styles.topNavElement,
-      styles.active
-    )
-
     return (
       <div>
         <div className={[styles.topNavContainer]}>
-          <div className={[styles.topNavElement]}>
-            Tab
-          </div>
-          <div className={[styles.topNavElement]}>
-            Tab
-          </div>
-          <div className={tabStyles}>
-            Tab
-          </div>
+          <TopNavTab text="Home" linkTo="/" active />
+          <TopNavTab text="Projects" linkTo="/Projects" active={false} />
+          <TopNavTab text="Guides" linkTo="/Guides" active={false} />
         </div>
         {this.props.children}
       </div>
@@ -35,5 +28,3 @@ class TopNav extends React.Component {
 }
 
 TopNav.propTypes = propTypes
-
-export default TopNav

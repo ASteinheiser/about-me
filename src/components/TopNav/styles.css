@@ -9,27 +9,3 @@
   top: 0;
   height: 55px;
 }
-
-.topNavElement {
-  cursor: pointer;
-  color: #DFDCE3;
-  font-size: 28px;
-  font-family: 'Quicksand', sans-serif;
-
-  float: left;
-  padding: 10px 30px;
-  display: inline-block;
-}
-
-.topNavElement:hover {
-  background: #292929;
-  color: #FC4A1A;
-}
-
-.active {
-  border-bottom: 3px solid #4abdac;
-  padding-bottom: 7px;
-
-  background: #292929;
-  color: #FC4A1A;
-}
