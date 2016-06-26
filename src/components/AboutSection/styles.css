@@ -1,8 +1,8 @@
 .aboutContainer {
   width: 100%;
   width: 245px;
-  text-align: left;
-  padding: 0px 8px 0px 0px;
+  text-align: right;
+  padding: 0px 27px;
 
   color: #FC4A1A;
   font-size: 28px;
@@ -31,7 +31,6 @@
   bottom: 0;
 
   width: inherit;
-  padding: 0px 27px;
 
   display: table;
   table-layout: fixed;

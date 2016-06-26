@@ -6,11 +6,11 @@ class AboutSection extends React.Component {
 
   render() {
     return (
-      <span className={[styles.aboutContainer]}>
+      <div className={[styles.aboutContainer]}>
         Intern at Octoblu
         <br />
         <br />
-        Computer Science
+        Computer Sci
         <br />
         AZ State 2018
         <br />
@@ -28,7 +28,7 @@ class AboutSection extends React.Component {
             <i className="fa fa-instagram" />
           </a>
         </div>
-      </span>
+      </div>
     )
   }
 }
