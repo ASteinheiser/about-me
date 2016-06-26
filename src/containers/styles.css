@@ -9,17 +9,19 @@
 .sidebar {
   background: #4ABDAC;
 
-  float: left;
   height: 100%;
   width: 300px;
+
+  position: fixed;
 }
 
 .content {
   background: #373737;
-
-  float: left;
   height: 100%;
-  width: calc(100% - 300px);
+  width: 100%;
+
+  position: absolute;
+  left: 300px;
 }
 
 .contentFrame {
