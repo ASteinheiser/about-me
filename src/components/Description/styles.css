@@ -5,7 +5,6 @@
 
 .descriptionText {
   color: #DFDCE3;
-  font-weight: lighter;
-  font-family: sans-serif;
-  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 28px;
 }

@@ -14,6 +14,10 @@ class AboutSection extends React.Component {
         <br />
         AZ State 2018
         <br />
+        <br />
+        andrew@
+        octoblu.com
+        <br />
         <div className={[styles.socialContainer]}>
           <a href="https://github.com/ASteinheiser" className={[styles.socialButton]}>
             <i className="fa fa-github-square" />
