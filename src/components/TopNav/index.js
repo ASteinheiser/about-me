@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react'
+import classnames from 'classnames'
 
 import styles from './styles.css'
 
@@ -9,6 +10,11 @@ const propTypes = {
 class TopNav extends React.Component {
 
   render() {
+    const tabStyles = classnames(
+      styles.topNavElement,
+      styles.active
+    )
+
     return (
       <div>
         <div className={[styles.topNavContainer]}>
@@ -18,7 +24,7 @@ class TopNav extends React.Component {
           <div className={[styles.topNavElement]}>
             Tab
           </div>
-          <div className={[styles.topNavElement]}>
+          <div className={tabStyles}>
             Tab
           </div>
         </div>
