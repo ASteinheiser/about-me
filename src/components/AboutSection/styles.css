@@ -1,11 +1,42 @@
 .aboutContainer {
-  float: right;
+  width: 100%;
   width: 245px;
-  text-align: right;
+  text-align: left;
   padding: 0px 8px 0px 0px;
 
   color: #FC4A1A;
   font-size: 28px;
-  font-weight: lighter;
-  font-family: sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.socialButton {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 45px;
+
+  display: table-cell;
+  text-align: center;
+}
+
+.socialButton:visited {
+  color: #FC4A1A;
+}
+
+.socialButton:hover {
+  color: #373737;
+}
+
+.socialContainer {
+  position: absolute;
+  bottom: 0;
+
+  width: inherit;
+  padding: 0px 27px;
+
+  display: table;
+  table-layout: fixed;
+}
+
+.hackster {
+  font-weight: bold;
 }

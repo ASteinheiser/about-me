@@ -1,5 +1,4 @@
 import React from 'react'
-import { TwitterButton } from 'react-social'
 
 import styles from './styles.css'
 
@@ -8,9 +7,6 @@ class AboutSection extends React.Component {
   render() {
     return (
       <span className={[styles.aboutContainer]}>
-        Andrew Steinheiser
-        <br />
-        <br />
         Intern at Octoblu
         <br />
         <br />
@@ -18,7 +14,20 @@ class AboutSection extends React.Component {
         <br />
         AZ State 2018
         <br />
-        <TwitterButton url="https://twitter.com/ASteinheiser" media="https://platform.twitter.com/widgets/follow_button.178875e873dd548f81376d8be28c2163.en.html#dnt=false&id=twitter-widget-3&lang=en&preview=true&screen_name=ASteinheiser&show_count=false&show_screen_name=true&size=m&time=1466665177857"/>
+        <div className={[styles.socialContainer]}>
+          <a href="https://github.com/ASteinheiser" className={[styles.socialButton]}>
+            <i className="fa fa-github-square" />
+          </a>
+          <a href="https://www.hackster.io/andrewstein" className={[styles.socialButton]}>
+            <span className={[styles.hackster]}>H</span>
+          </a>
+          <a href="https://twitter.com/ASteinheiser" className={[styles.socialButton]}>
+            <i className="fa fa-twitter-square" />
+          </a>
+          <a href="https://www.instagram.com/asteinheiser/" className={[styles.socialButton]}>
+            <i className="fa fa-instagram" />
+          </a>
+        </div>
       </span>
     )
   }
