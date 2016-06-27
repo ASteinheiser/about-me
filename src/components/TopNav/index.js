@@ -5,21 +5,30 @@ import styles from './styles.css'
 
 const propTypes = {
   children: PropTypes.element.isRequired,
+  currentPage: PropTypes.string.isRequired,
 }
 
 export default class TopNav extends React.Component {
-
-  componentWillMount() {
-    console.log(window.location)
-  }
 
   render() {
     return (
       <div>
         <div className={[styles.topNavContainer]}>
-          <TopNavTab text="Home" linkTo="/" active />
-          <TopNavTab text="Projects" linkTo="/projects" active={false} />
-          <TopNavTab text="Guides" linkTo="/guides" active={false} />
+          <TopNavTab
+            text="Home"
+            linkTo="/"
+            active={this.props.currentPage === '/'}
+          />
+          <TopNavTab
+            text="Projects"
+            linkTo="/projects"
+            active={this.props.currentPage === '/projects'}
+          />
+          <TopNavTab
+            text="Guides"
+            linkTo="/guides"
+            active={this.props.currentPage === '/guides'}
+          />
         </div>
         {this.props.children}
       </div>
