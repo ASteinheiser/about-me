@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react'
 import AboutSection from '../components/AboutSection/index'
 import ProfileImage from '../components/ProfileImage/index'
+import TopNav from '../components/TopNav/index'
 
 import styles from './styles.css'
 
@@ -17,7 +18,11 @@ export default class App extends React.Component {
           <AboutSection />
         </div>
         <div className={[styles.content]}>
-          {this.props.children}
+          <div className={[styles.contentFrame]}>
+            <TopNav>
+              {this.props.children}
+            </TopNav>
+          </div>
         </div>
       </div>
     )

@@ -10,7 +10,7 @@ const propTypes = {
 export default class TopNav extends React.Component {
 
   componentWillMount() {
-    // console.log(window.location)
+    console.log(window.location)
   }
 
   render() {
@@ -18,8 +18,8 @@ export default class TopNav extends React.Component {
       <div>
         <div className={[styles.topNavContainer]}>
           <TopNavTab text="Home" linkTo="/" active />
-          <TopNavTab text="Projects" linkTo="/Projects" active={false} />
-          <TopNavTab text="Guides" linkTo="/Guides" active={false} />
+          <TopNavTab text="Projects" linkTo="/projects" active={false} />
+          <TopNavTab text="Guides" linkTo="/guides" active={false} />
         </div>
         {this.props.children}
       </div>
