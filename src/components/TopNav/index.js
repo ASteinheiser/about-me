@@ -12,7 +12,7 @@ export default class TopNav extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className={[styles.bodyWidth]}>
         <div className={[styles.topNavContainer]}>
           <TopNavTab
             text="Home"

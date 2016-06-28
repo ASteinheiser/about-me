@@ -17,6 +17,8 @@
 
 .content {
   background: #373737;
+  background-size: cover;
+
   height: 100%;
   width: 100%;
 
