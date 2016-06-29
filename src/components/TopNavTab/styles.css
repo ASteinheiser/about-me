@@ -12,7 +12,7 @@
 
 .topNavElement:hover {
   background: #292929;
-  color: #FC4A1A;
+  color: #4abdac;
 }
 
 .active {
@@ -20,5 +20,5 @@
   padding-bottom: 7px;
 
   background: #292929;
-  color: #FC4A1A;
+  color: #4abdac;
 }
