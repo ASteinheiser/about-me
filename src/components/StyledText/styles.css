@@ -1,0 +1,31 @@
+.font {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.white {
+  color: #DFDCE3;
+}
+
+.gray {
+  color: #373737;
+}
+
+.blue {
+  color: #4abdac;
+}
+
+.black {
+  color: #000000;
+}
+
+.regular {
+  font-size: 28px;
+}
+
+.large {
+  font-size: 45px;
+}
+
+.small {
+  font-size: 20px;
+}
