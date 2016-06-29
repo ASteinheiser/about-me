@@ -1,6 +1,6 @@
 import React from 'react'
-import Description from '../components/Description/index'
-import Title from '../components/Title/index'
+import Description from '../components/Description'
+import Title from '../components/Title'
 
 export default class Home extends React.Component {
   render() {

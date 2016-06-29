@@ -1,5 +1,5 @@
 import React from 'react'
-import Description from '../components/Description/index'
+import Description from '../components/Description'
 
 export default class Home extends React.Component {
   render() {
