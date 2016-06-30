@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react'
-import SidebarInfo from '../components/SidebarInfo'
-import ProfileImage from '../components/ProfileImage'
-import TopNav from '../components/TopNav'
+import SidebarInfo from '../components/sidebar-info'
+import ProfileImage from '../components/profile-image'
+import TopNav from '../components/top-nav'
 
 import styles from './styles.css'
 

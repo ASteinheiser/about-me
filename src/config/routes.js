@@ -4,7 +4,7 @@ import Layout from '../containers/layout'
 import About from '../containers/about'
 import Projects from '../containers/projects'
 import Guides from '../containers/guides'
-import NotFound from '../components/NotFound'
+import NotFound from '../components/not-found'
 
 export default (
   <Route>

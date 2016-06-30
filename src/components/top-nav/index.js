@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react'
-import TopNavTab from '../TopNavTab'
+import TopNavTab from '../top-nav-tab'
 
 import styles from './styles.css'
 
