@@ -8,13 +8,8 @@ const TEXT_COLORS = ['white', 'gray', 'blue', 'black']
 
 const propTypes = {
   text: PropTypes.string.isRequired,
-  size: PropTypes.oneOf(TEXT_SIZES),
-  color: PropTypes.oneOf(TEXT_COLORS),
-}
-
-const defaultProps = {
-  color: TEXT_COLORS[0],
-  size: TEXT_SIZES[0],
+  size: PropTypes.oneOf(TEXT_SIZES).isRequired,
+  color: PropTypes.oneOf(TEXT_COLORS).isRequired,
 }
 
 export default class StyledText extends React.Component {
@@ -35,4 +30,3 @@ export default class StyledText extends React.Component {
 }
 
 StyledText.PropTypes = propTypes
-StyledText.DefaultProps = defaultProps

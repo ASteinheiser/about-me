@@ -7,29 +7,29 @@ export default class Home extends React.Component {
       <div>
         <StyledText
           text="Hi. I'm Andrew"
-          color="white"
           size="large"
+          color="white"
         />
         <br />
         <br />
         <StyledText
           text="And I like to make websites with React.js!"
-          color="white"
           size="regular"
+          color="white"
         />
         <br />
         <br />
         <StyledText
           text="I also like to connect things to the internet"
-          color="white"
           size="regular"
+          color="white"
         />
         <br />
         <br />
         <StyledText
           text="And write guides on how to make things!"
-          color="white"
           size="regular"
+          color="white"
         />
       </div>
     )
