@@ -20,7 +20,9 @@ export default class App extends React.Component {
         <div className={[styles.content]}>
           <div className={[styles.contentFrame]}>
             <TopNav currentPage={window.location.pathname}>
-              {this.props.children}
+              <div className={[styles.marginLeft]}>
+                {this.props.children}
+              </div>
             </TopNav>
           </div>
         </div>
