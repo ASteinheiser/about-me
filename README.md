@@ -2,10 +2,21 @@
 
 ## To-do
 
-- [ ] Social links
+- [ ] About
+  - [ ] Short Bio
+
+- [ ] Projects
+  - [ ] IoT Skateboard
+  - [ ] OmniWolf DSN
+
+- [ ] Guides
+  - [ ] IoT Baby Monitor
+  - [ ] Myo Controlled Drone Swarm
+
+- [x] Social links
   - [x] instagram
-  - [ ] facebook
+  - [x] facebook
   - [x] twitter
   - [x] hackster
   - [x] github
-  - [ ] linkedin
+  - [x] linkedin
