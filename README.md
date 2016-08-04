@@ -1,7 +1,6 @@
 # about-me
 
 ## To-do
-
 - [ ] About
   - [ ] Short Bio
 
