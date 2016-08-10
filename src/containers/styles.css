@@ -7,13 +7,16 @@
 }
 
 .sidebar {
-  background: url(/images/leafy.jpg);
+  /*background: url(/images/leafy.jpg);*/
+  background-color: #28736a;
   background-size: cover;
 
   height: 100%;
   width: 300px;
+  min-height: 700px;
 
   position: fixed;
+  text-align: center;
 }
 
 .content {
@@ -37,4 +40,11 @@
 
 .marginLeft {
   margin-left: 10px;
+}
+
+.Title {
+  font-size: 60px;
+  position: absolute;
+  top: 30px;
+  right: 0;
 }
