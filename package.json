@@ -9,7 +9,7 @@
     "build": "npm run clean && npm run build:webpack",
     "start": "node dev-server.js",
     "lint": "eslint src",
-    "lint:fix": "eslint src --fix",
+    "lint:fix": "eslint src --fix"
   },
   "keywords": [
     "react",

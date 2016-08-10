@@ -1,0 +1,44 @@
+#!/bin/bash
+
+command -v git >/dev/null 2>&1  || { echo >&2 "I require git but it's not installed. I'm just gonna back away slowly..."; exit 1; }
+
+echo "Okay, here's what I'll do for you:"
+echo ""
+echo "npm run build"
+echo ""
+echo "git add ."
+echo "git commit -m \"${1}\""
+echo "git push"
+echo ""
+echo "scp -r public/ ubuntu@iamandrew.io:/home/ubuntu/about-me"
+echo "scp -r src/ ubuntu@iamandrew.io:/home/ubuntu/about-me"
+echo "scp -r index.html ubuntu@iamandrew.io:/home/ubuntu/about-me"
+echo "scp -r server.js ubuntu@iamandrew.io:/home/ubuntu/about-me"
+echo "scp -r package.json ubuntu@iamandrew.io:/home/ubuntu/about-me"
+echo ""
+echo "ssh ubuntu@iamandrew.io"
+echo "cd about-me"
+echo "sudo forever stop server.js"
+echo "npm install"
+echo "sudo forever start server.js"
+echo ""
+read -p "Press [Enter] key to continue... "
+
+npm run build
+
+git add .
+git commit -m "${1}"
+git push
+
+scp -r public/ ubuntu@iamandrew.io:/home/ubuntu/about-me
+scp -r src/ ubuntu@iamandrew.io:/home/ubuntu/about-me
+scp -r index.html ubuntu@iamandrew.io:/home/ubuntu/about-me
+scp -r server.js ubuntu@iamandrew.io:/home/ubuntu/about-me
+scp -r package.json ubuntu@iamandrew.io:/home/ubuntu/about-me
+
+ssh ubuntu@iamandrew.io <<-'ENDSSH'
+  cd about-me
+  sudo forever stop server.js
+  npm install
+  sudo forever start server.js
+ENDSSH
