@@ -18,7 +18,7 @@ export default class App extends React.Component {
 
           <StyledText
             text="I AM ANDREW"
-            color="white"
+            color="pearl"
             size="large"
             bold
             className={[styles.Title]}
