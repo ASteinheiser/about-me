@@ -7,7 +7,7 @@ const app = express()
 const compiler = webpack(config)
 const PORT = process.env.PORT || 80
 
-app.use(express.static(path.join(__dirname, 'public/dist')))
+app.use(express.static(path.join(__dirname, 'dist')))
 
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,

@@ -1,5 +1,4 @@
 # build
-public
 dist
 
 # Logs
@@ -38,3 +37,7 @@ node_modules
 
 # dev files
 .*-dev
+
+#keys
+credentials.csv
+iamandrew.pem

@@ -10,7 +10,7 @@ echo "git add ."
 echo "git commit -m \"${1}\""
 echo "git push"
 echo ""
-echo "scp -r public/ ubuntu@iamandrew.io:/home/ubuntu/about-me"
+echo "scp -r dist/ ubuntu@iamandrew.io:/home/ubuntu/about-me"
 echo "scp -r src/ ubuntu@iamandrew.io:/home/ubuntu/about-me"
 echo "scp -r index.html ubuntu@iamandrew.io:/home/ubuntu/about-me"
 echo "scp -r server.js ubuntu@iamandrew.io:/home/ubuntu/about-me"
@@ -30,7 +30,7 @@ git add .
 git commit -m "${1}"
 git push
 
-scp -r public/ ubuntu@iamandrew.io:/home/ubuntu/about-me
+scp -r dist/ ubuntu@iamandrew.io:/home/ubuntu/about-me
 scp -r src/ ubuntu@iamandrew.io:/home/ubuntu/about-me
 scp -r index.html ubuntu@iamandrew.io:/home/ubuntu/about-me
 scp -r server.js ubuntu@iamandrew.io:/home/ubuntu/about-me
