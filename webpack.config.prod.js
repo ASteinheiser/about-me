@@ -3,7 +3,7 @@ var webpack      = require('webpack');
 var autoprefixer = require('autoprefixer');
 
 module.exports = {
-  devtool: 'cheap-module-source-map',
+  devtool: 'source-map',
   entry: [
     './src/index'
   ],
@@ -12,16 +12,11 @@ module.exports = {
     filename: 'bundle.js',
   },
   plugins: [
+    new webpack.NoErrorsPlugin(),
+    new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.DefinePlugin({
       'process.env': {
         'NODE_ENV': JSON.stringify('production')
-      }
-    }),
-    new webpack.NoErrorsPlugin(),
-    new webpack.optimize.OccurenceOrderPlugin(),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
       }
     })
   ],
@@ -29,8 +24,11 @@ module.exports = {
     loaders: [
       {
         test: /\.js$/,
-        loaders: ['babel'],
-        include: path.join(__dirname, 'src')
+        loader: 'babel',
+        include: path.join(__dirname, 'src'),
+        query: {
+          "presets": ["react", "es2015", "stage-0"]
+        }
       },
       {
         test:   /\.css$/,
@@ -47,10 +45,12 @@ module.exports = {
       {
         test: /\.svg$/,
         loader: "file-loader"
-      },
+      }
     ]
   },
   postcss: function (webpack) {
-    return [ autoprefixer ];
+    return [
+      autoprefixer
+    ];
   }
 };
