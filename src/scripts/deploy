@@ -10,14 +10,12 @@ echo "git add ."
 echo "git commit -m \"${1}\""
 echo "git push"
 echo ""
-echo "scp -r dist/ ubuntu@iamandrew.io:/home/ubuntu/about-me"
-echo "scp -r src/ ubuntu@iamandrew.io:/home/ubuntu/about-me"
-echo "scp -r index.html ubuntu@iamandrew.io:/home/ubuntu/about-me"
-echo "scp -r server.js ubuntu@iamandrew.io:/home/ubuntu/about-me"
-echo "scp -r package.json ubuntu@iamandrew.io:/home/ubuntu/about-me"
+echo "scp -r dist/ ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
+echo "scp -r index.html ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
+echo "scp -r server.js ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
 echo ""
-echo "ssh ubuntu@iamandrew.io"
-echo "cd about-me"
+echo "ssh ubuntu@54.218.73.136"
+echo "cd iamandrew"
 echo "sudo forever stop server.js"
 echo "npm install"
 echo "sudo forever start server.js"
@@ -30,14 +28,12 @@ git add .
 git commit -m "${1}"
 git push
 
-scp -r dist/ ubuntu@iamandrew.io:/home/ubuntu/about-me
-scp -r src/ ubuntu@iamandrew.io:/home/ubuntu/about-me
-scp -r index.html ubuntu@iamandrew.io:/home/ubuntu/about-me
-scp -r server.js ubuntu@iamandrew.io:/home/ubuntu/about-me
-scp -r package.json ubuntu@iamandrew.io:/home/ubuntu/about-me
+scp -r dist/ ubuntu@54.218.73.136:/home/ubuntu/iamandrew
+scp -r index.html ubuntu@54.218.73.136:/home/ubuntu/iamandrew
+scp -r server.js ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 
-ssh ubuntu@iamandrew.io <<-'ENDSSH'
-  cd about-me
+ssh ubuntu@54.218.73.136 <<-'ENDSSH'
+  cd iamandrew
   sudo forever stop server.js
   npm install
   sudo forever start server.js
