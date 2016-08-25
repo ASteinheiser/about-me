@@ -19,9 +19,9 @@ echo "scp -r package.json ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
 echo ""
 echo "ssh ubuntu@54.218.73.136"
 echo "cd /home/ubuntu/iamandrew"
-echo "forever stop server.js"
-echo "npm i"
-echo "forever start server.js"
+echo "sudo forever stop server.js"
+echo "sudo npm i"
+echo "sudo forever start server.js"
 echo ""
 read -p "Press [Enter] key to continue... "
 
@@ -40,7 +40,7 @@ scp -r package.json ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 
 ssh ubuntu@54.218.73.136 <<-'ENDSSH'
   cd /home/ubuntu/iamandrew
-  forever stop server.js
-  npm i
-  forever start server.js
+  sudo forever stop server.js
+  sudo npm i
+  sudo forever start server.js
 ENDSSH
