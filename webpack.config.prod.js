@@ -27,7 +27,11 @@ module.exports = {
         loader: 'babel',
         include: path.join(__dirname, 'src'),
         query: {
-          "presets": ["react", "es2015", "stage-0"]
+          presets: [
+            'babel-preset-es2015',
+            'babel-preset-react',
+            'babel-preset-stage-0',
+          ].map(require.resolve),
         }
       },
       {
