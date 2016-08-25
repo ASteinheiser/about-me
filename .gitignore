@@ -37,7 +37,3 @@ node_modules
 
 # dev files
 .*-dev
-
-#keys
-credentials.csv
-iamandrew.pem
