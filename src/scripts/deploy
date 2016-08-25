@@ -4,41 +4,39 @@ command -v git >/dev/null 2>&1  || { echo >&2 "I require git but it's not instal
 
 echo "Okay, here's what I'll do for you:"
 echo ""
-echo "npm run build"
-echo ""
 echo "git add ."
 echo "git commit -m \"${1}\""
 echo "git push"
+echo ""
+echo "npm install"
+echo "npm run build"
 echo ""
 echo "scp -r dist/ ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
 echo "scp -r src/ ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
 echo "scp -r index.html ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
 echo "scp -r server.js ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
 echo "scp -r package.json ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
+echo "scp -r node_modules ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
 echo ""
 echo "ssh ubuntu@54.218.73.136"
-echo "cd iamandrew"
-echo "sudo forever stop server.js"
-echo "npm install"
-echo "sudo forever start server.js"
+echo "forever restart iamandrew/server.js"
 echo ""
 read -p "Press [Enter] key to continue... "
-
-npm run build
 
 git add .
 git commit -m "${1}"
 git push
+
+npm install
+npm run build
 
 scp -r dist/ ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 scp -r src/ ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 scp -r index.html ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 scp -r server.js ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 scp -r package.json ubuntu@54.218.73.136:/home/ubuntu/iamandrew
+scp -r node_modules ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 
 ssh ubuntu@54.218.73.136 <<-'ENDSSH'
-  cd iamandrew
-  sudo forever stop server.js
-  npm install
-  sudo forever start server.js
+  forever restart iamandrew/server.js
 ENDSSH
