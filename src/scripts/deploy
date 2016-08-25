@@ -11,8 +11,10 @@ echo "git commit -m \"${1}\""
 echo "git push"
 echo ""
 echo "scp -r dist/ ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
+echo "scp -r src/ ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
 echo "scp -r index.html ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
 echo "scp -r server.js ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
+echo "scp -r package.json ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
 echo ""
 echo "ssh ubuntu@54.218.73.136"
 echo "cd iamandrew"
@@ -29,8 +31,10 @@ git commit -m "${1}"
 git push
 
 scp -r dist/ ubuntu@54.218.73.136:/home/ubuntu/iamandrew
+scp -r src/ ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 scp -r index.html ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 scp -r server.js ubuntu@54.218.73.136:/home/ubuntu/iamandrew
+scp -r package.json ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 
 ssh ubuntu@54.218.73.136 <<-'ENDSSH'
   cd iamandrew
