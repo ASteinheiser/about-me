@@ -36,7 +36,7 @@ scp -r server.js ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 scp -r package.json ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 scp -r index.html ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 
-ssh ubuntu@54.218.73.136 <<-'ENDSSH'
+ssh -i ~/.ssh/iamandrew.pem ubuntu@54.218.73.136 <<-'ENDSSH'
   cd /home/ubuntu/iamandrew
   sudo forever stop server.js
   sudo npm i
