@@ -7,7 +7,6 @@
 }
 
 .sidebar {
-  /*background: url(/images/leafy.jpg);*/
   background-color: #28736a;
   background-size: cover;
 
@@ -26,12 +25,11 @@
   height: 100%;
   width: 100%;
 
-  position: absolute;
+  position: fixed;
   left: 300px;
 }
 
 .contentFrame {
-  background: url(/images/triangle.jpg);
   height: 100%;
 
   overflow: scroll;
