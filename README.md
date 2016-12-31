@@ -1,16 +1,18 @@
-# about-me
+# iamandrew.io
 
 ## To-do
+- [ ] Sidepane redesign
+- [ ] lock main pane in place
+
 - [ ] About
   - [ ] Short Bio
+    - [ ] mention hackster tutorials
+  - [ ] Creative Design
 
 - [ ] Projects
   - [ ] IoT Skateboard
-  - [ ] OmniWolf DSN
-
-- [ ] Guides
-  - [ ] IoT Baby Monitor
-  - [ ] Myo Controlled Drone Swarm
+  - [ ] Computer in a Can
+  - [ ] Business Cards
 
 - [x] Social links
   - [x] instagram
