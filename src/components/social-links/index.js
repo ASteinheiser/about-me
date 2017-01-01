@@ -25,7 +25,6 @@ export default class SocialLinks extends React.Component {
           <div className={[styles.divider]} />
           <StyledText
             text="Github"
-            color="black"
             size="small"
             bold
             topAlign
@@ -36,7 +35,6 @@ export default class SocialLinks extends React.Component {
           <div className={[styles.divider]} />
           <StyledText
             text="Hackster"
-            color="black"
             size="small"
             bold
             topAlign
@@ -50,7 +48,6 @@ export default class SocialLinks extends React.Component {
           <div className={[styles.divider]} />
           <StyledText
             text="Twitter"
-            color="black"
             size="small"
             bold
             topAlign
@@ -61,7 +58,6 @@ export default class SocialLinks extends React.Component {
           <div className={[styles.divider]} />
           <StyledText
             text="Linkedin"
-            color="black"
             size="small"
             bold
             topAlign
@@ -75,7 +71,6 @@ export default class SocialLinks extends React.Component {
           <div className={[styles.divider]} />
           <StyledText
             text="Insta"
-            color="black"
             size="small"
             bold
             topAlign
@@ -86,7 +81,6 @@ export default class SocialLinks extends React.Component {
           <div className={[styles.divider]} />
           <StyledText
             text="Facebook"
-            color="black"
             size="small"
             bold
             topAlign

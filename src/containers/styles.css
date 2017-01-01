@@ -37,5 +37,10 @@
 }
 
 .marginLeft {
-  margin-left: 10px;
+  margin-left: 25px;
+}
+
+.noDecoration {
+  cursor: pointer;
+  text-decoration: none;
 }

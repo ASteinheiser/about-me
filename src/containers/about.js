@@ -1,36 +1,75 @@
 import React from 'react'
 import StyledText from '../components/styled-text'
 
+import styles from './styles.css'
+
 export default class Home extends React.Component {
   render() {
     return (
       <div>
+        <br />
         <StyledText
-          text="Hi. I'm Andrew"
-          size="large"
-          color="white"
+          text="I AM ANDREW"
+          size="billboard"
+          color="blue"
         />
         <br />
         <br />
+        <br />
         <StyledText
-          text="And I like to make websites with React.js!"
+          text="I make websites with React.js,"
+          size="regular"
+          color="white"
+        />
+        <br />
+        <StyledText
+          text="such as this very webpage!"
           size="regular"
           color="white"
         />
         <br />
         <br />
         <StyledText
-          text="I also like to connect things to the internet"
+          text="I connect things to the internet, tinker,"
           size="regular"
           color="white"
         />
+        <br />
+        <StyledText
+          text="and write guides on how to make things!"
+          size="regular"
+          color="white"
+        />
+        <br />
         <br />
         <br />
         <StyledText
-          text="And write guides on how to make things!"
+          text="If you would like to contact me,"
           size="regular"
           color="white"
         />
+        <br />
+        <StyledText
+          text="my email is"
+          size="regular"
+          color="white"
+        />
+        <StyledText
+          text=" me@iamandrew.io"
+          size="regular"
+          color="blue"
+        />
+        <br />
+        <br />
+        <br />
+        <a target="_blank" href="https://s3-us-west-2.amazonaws.com/iamandrew.io-images/resume2017.pdf" className={[styles.noDecoration]}>
+          <StyledText
+            text="Click here to view my resume"
+            size="regular"
+            color="white"
+            hoverBlue
+          />
+        </a>
       </div>
     )
   }
