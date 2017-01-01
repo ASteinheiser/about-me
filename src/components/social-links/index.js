@@ -9,10 +9,10 @@ export default class SocialLinks extends React.Component {
     return (
       <div className={[styles.socialContainer]}>
 
-        <div className={[styles.paddingLeft]}>
+        <div className={[styles.paddingLeftAndTop]}>
           <StyledText
             text="Follow me on"
-            color="gray"
+            color="black"
             size="large"
             topAlign
           />

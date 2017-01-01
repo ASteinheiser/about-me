@@ -6,12 +6,10 @@
     - [ ] mention hackster tutorials
   - [ ] Creative Design
 
-- [ ] Projects
+- [ ] Blog
   - [ ] IoT Skateboard
   - [ ] Computer in a Can
   - [ ] Business Cards
-
-- [ ] Blog
   - [ ] Design
   - [ ] Make a post
 

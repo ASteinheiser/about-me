@@ -33,8 +33,12 @@
   right: 10px;
 
   text-align: left;
+  border-radius: 15px;
+
+  background-color: rgba(100,100,100,0.6);
 }
 
-.paddingLeft {
+.paddingLeftAndTop {
   padding-left: 10px;
+  padding-top: 5px;
 }
