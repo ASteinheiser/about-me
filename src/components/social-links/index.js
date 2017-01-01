@@ -14,6 +14,7 @@ export default class SocialLinks extends React.Component {
             text="Follow me on"
             color="black"
             size="large"
+            bold
             topAlign
           />
         </div>
