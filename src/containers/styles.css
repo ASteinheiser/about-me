@@ -38,6 +38,7 @@
 
 .marginLeft {
   margin-left: 25px;
+  min-width: 900px;
 }
 
 .noDecoration {

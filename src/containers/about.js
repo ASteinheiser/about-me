@@ -17,26 +17,25 @@ export default class Home extends React.Component {
         <br />
         <br />
         <StyledText
-          text="I make websites with React.js,"
+          text="I like to make websites with React.js,"
           size="regular"
           color="white"
         />
         <br />
         <StyledText
-          text="such as this very webpage!"
-          size="regular"
-          color="white"
-        />
-        <br />
-        <br />
-        <StyledText
-          text="I connect things to the internet, tinker,"
+          text="connect things to the internet, tinker,"
           size="regular"
           color="white"
         />
         <br />
         <StyledText
-          text="and write guides on how to make things!"
+          text="and write guides on how to make your"
+          size="regular"
+          color="white"
+        />
+        <br />
+        <StyledText
+          text="own IoT (Internet of Things) devices!"
           size="regular"
           color="white"
         />
