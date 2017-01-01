@@ -24,11 +24,6 @@ export default class TopNav extends React.Component {
             linkTo="/blog"
             active={this.props.currentPage === '/blog'}
           />
-          <TopNavTab
-            text="Resume"
-            linkTo="/resume"
-            active={this.props.currentPage === '/resume'}
-          />
         </div>
         {this.props.children}
       </div>

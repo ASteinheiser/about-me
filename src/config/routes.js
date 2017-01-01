@@ -3,7 +3,6 @@ import { Route, IndexRoute } from 'react-router'
 import Layout from '../containers/layout'
 import About from '../containers/about'
 import Blog from '../containers/blog'
-import Resume from '../containers/resume'
 import NotFound from '../components/not-found'
 
 export default (
@@ -11,7 +10,6 @@ export default (
     <Route path="/" component={Layout}>
       <IndexRoute component={About} />
       <Route path="blog" component={Blog} />
-      <Route path="resume" component={Resume} />
     </Route>
     <Route path="*" status={404} component={NotFound} />
   </Route>

@@ -5,6 +5,7 @@
   - [ ] Short Bio
     - [ ] mention hackster tutorials
   - [ ] Creative Design
+  - [ ] Resume
 
 - [ ] Blog
   - [ ] IoT Skateboard
@@ -12,5 +13,3 @@
   - [ ] Business Cards
   - [ ] Design
   - [ ] Make a post
-
-- [ ] Resume
