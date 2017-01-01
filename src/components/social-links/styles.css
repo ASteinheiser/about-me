@@ -1,6 +1,6 @@
 .socialButton {
   color: #000000;
-  font-size: 56px;
+  font-size: 40px;
 
   cursor: pointer;
   text-decoration: none;
@@ -29,7 +29,12 @@
 .socialContainer {
   position: absolute;
   left: 10px;
-  bottom: 10px;
-  
+  bottom: 20px;
+  right: 10px;
+
   text-align: left;
+}
+
+.paddingLeft {
+  padding-left: 10px;
 }

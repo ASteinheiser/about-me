@@ -1,6 +1,5 @@
 import React, { PropTypes } from 'react'
 import SocialLinks from '../components/social-links'
-import StyledText from '../components/styled-text'
 import TopNav from '../components/top-nav'
 
 import styles from './styles.css'
@@ -15,14 +14,6 @@ export default class App extends React.Component {
       <div className={[styles.fullWindow]}>
 
         <div className={[styles.sidebar]}>
-
-          <StyledText
-            text="I AM ANDREW"
-            color="pearl"
-            size="large"
-            bold
-            className={[styles.Title]}
-          />
 
           <SocialLinks />
 

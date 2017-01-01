@@ -7,7 +7,7 @@
 }
 
 .sidebar {
-  background-color: #28736a;
+  background-image: url(images/standingwithbow.jpg);
   background-size: cover;
 
   height: 100%;
@@ -38,11 +38,4 @@
 
 .marginLeft {
   margin-left: 10px;
-}
-
-.Title {
-  font-size: 60px;
-  position: absolute;
-  top: 30px;
-  right: 0;
 }

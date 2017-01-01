@@ -12,6 +12,7 @@ echo "npm run build"
 echo ""
 echo "scp -r dist/ ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
 echo "scp -r src/ ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
+echo "scp -r images/ ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
 echo "scp -r server.js ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
 echo "scp -r package.json ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
 echo "scp -r index.html ubuntu@54.218.73.136:/home/ubuntu/iamandrew"
@@ -32,6 +33,7 @@ npm run build
 
 scp -i ~/.ssh/iamandrew.pem -r dist/ ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 scp -i ~/.ssh/iamandrew.pem -r src/ ubuntu@54.218.73.136:/home/ubuntu/iamandrew
+scp -i ~/.ssh/iamandrew.pem -r images/ ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 scp -i ~/.ssh/iamandrew.pem -r server.js ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 scp -i ~/.ssh/iamandrew.pem -r package.json ubuntu@54.218.73.136:/home/ubuntu/iamandrew
 scp -i ~/.ssh/iamandrew.pem -r index.html ubuntu@54.218.73.136:/home/ubuntu/iamandrew

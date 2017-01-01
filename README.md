@@ -1,8 +1,6 @@
 # iamandrew.io
 
 ## To-do
-- [ ] Sidepane redesign
-
 - [ ] About
   - [ ] Short Bio
     - [ ] mention hackster tutorials
