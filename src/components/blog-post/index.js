@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react'
 
-import StyledText from '../styled-text'
+import BlogContent from '../blog-content'
 
 import styles from './styles.css'
 
@@ -11,25 +11,27 @@ const propTypes = {
 
 export default class BlogPost extends React.Component {
 
+  constructor(props) {
+    super(props)
+    this.state = { childVisible: false }
+    this.onClick = this.onClick.bind(this)
+  }
+
+  onClick() {
+    this.setState({ childVisible: !this.state.childVisible })
+  }
+
   render() {
     return (
       <div className={[styles.blogContainer]}>
-
-        <StyledText
-          text={this.props.title}
-          size="large"
-          color="pearl"
-        />
-
-        <br />
-        <br />
-
-        <StyledText
-          text={this.props.body}
-          size="regular"
-          color="white"
-        />
-
+        <div onClick={this.onClick}>
+          Parent - click me to show/hide my child
+        </div>
+        {
+          this.state.childVisible
+            ? <BlogContent title={this.props.title} body={this.props.body} />
+            : null
+        }
       </div>
     )
   }
