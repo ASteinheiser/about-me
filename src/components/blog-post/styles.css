@@ -3,3 +3,14 @@
   padding: 25px 0 20px 0;
   margin: 20px 0 0 0;
 }
+
+.button {
+  color: rgb(239, 239, 239);
+  font-size: 40px;
+
+  padding: 5px 15px 5px 5px;
+}
+
+.button:hover {
+  color: rgb(74, 189, 172);
+}
