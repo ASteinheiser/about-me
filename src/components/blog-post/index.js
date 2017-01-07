@@ -38,15 +38,18 @@ export default class BlogPost extends React.Component {
     return (
       <div className={[styles.blogContainer]}>
 
-        <span onClick={this.onClick}>
-          <i className={classes} />
-        </span>
+        <div className={styles.heading} onClick={this.onClick}>
 
-        <StyledText
-          text={this.props.title}
-          size="large"
-          color="pearl"
-        />
+          <i className={classes} />
+
+          <StyledText
+            text={this.props.title}
+            size="large"
+            color="pearl"
+          />
+
+        </div>
+
         {
           this.state.childVisible
             ? <BlogContent body={this.props.body} />
