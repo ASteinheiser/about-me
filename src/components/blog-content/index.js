@@ -16,11 +16,13 @@ export default class BlogContent extends React.Component {
 
         <br />
 
-        <StyledText
-          text={this.props.body}
-          size="regular"
-          color="white"
-        />
+        <span className={[styles.hyphens]}>
+          <StyledText
+            text={this.props.body}
+            size="regular"
+            color="white"
+          />
+        </span>
 
       </div>
     )
