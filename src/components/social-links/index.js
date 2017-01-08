@@ -10,20 +10,6 @@ export default class SocialLinks extends React.Component {
     return (
       <div className={[styles.socialContainer]}>
 
-        <div className={[styles.paddingLeftAndTop]}>
-
-          <StyledText
-            text="Follow me on"
-            color="black"
-            size="large"
-            bold
-            topAlign
-          />
-
-        </div>
-
-        <br />
-
         <a target="_blank" href="https://github.com/ASteinheiser" className={[styles.socialButton]}>
 
           <i className="fa fa-github-square" />

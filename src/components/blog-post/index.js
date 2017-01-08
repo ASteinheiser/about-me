@@ -48,7 +48,7 @@ export default class BlogPost extends React.Component {
 
           <StyledText
             text={this.props.title}
-            size="large"
+            size="billboard"
             color="pearl"
           />
 

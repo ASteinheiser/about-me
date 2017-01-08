@@ -6,7 +6,7 @@
   text-decoration: none;
 
   padding: 5px 5px 5px 10px;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .socialButton:visited {
@@ -32,11 +32,11 @@
   position: absolute;
   left: 7px;
   right: 7px;
-  bottom: 20px;
+  bottom: 40px;
 
-  padding-bottom: 10px;
+  padding: 15px 0px 15px 0px;
 
-  text-align: left;
+  text-align: center;
   border-radius: 15px;
 
   background-color: rgba(223, 220, 227, 0.45);
