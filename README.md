@@ -1,6 +1,8 @@
 # iamandrew.io
 
 ## To-do
+- [ ] hackster svg
+
 - [ ] About
   - [ ] Short Bio
     - [ ] mention hackster tutorials
@@ -8,7 +10,6 @@
   - [x] Resume
 
 - [ ] Blog
-  - [ ] IoT Skateboard
   - [ ] Computer in a Can
   - [ ] Business Cards
   - [x] Design
