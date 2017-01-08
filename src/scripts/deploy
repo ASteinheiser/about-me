@@ -2,6 +2,8 @@
 
 command -v git >/dev/null 2>&1  || { echo >&2 "I require git but it's not installed. I'm just gonna back away slowly..."; exit 1; }
 
+echo ""
+echo ""
 echo "Okay, here's what I'll do for you:"
 echo ""
 echo "git add ."
@@ -24,6 +26,8 @@ echo "sudo npm i"
 echo "sudo forever start server.js"
 echo ""
 read -p "Press [Enter] key to continue... "
+echo ""
+echo ""
 
 git add .
 git commit -m "${1}"

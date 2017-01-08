@@ -15,13 +15,16 @@ export default class BlogPost extends React.Component {
 
   constructor(props) {
     super(props)
+
     this.state = { childVisible: false }
     this.state = { chevron: 'fa fa-chevron-right' }
+
     this.onClick = this.onClick.bind(this)
   }
 
   onClick() {
     this.setState({ childVisible: !this.state.childVisible })
+
     if (this.state.chevron === 'fa fa-chevron-right') {
       this.setState({ chevron: 'fa fa-chevron-down' })
     } else {
@@ -51,11 +54,8 @@ export default class BlogPost extends React.Component {
 
         </div>
 
-        {
-          this.state.childVisible
-            ? <BlogContent body={this.props.body} />
-            : null
-        }
+        {this.state.childVisible ? <BlogContent body={this.props.body} /> : null}
+
       </div>
     )
   }

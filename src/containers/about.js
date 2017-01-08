@@ -1,4 +1,5 @@
 import React from 'react'
+
 import StyledText from '../components/styled-text'
 
 import styles from './styles.css'

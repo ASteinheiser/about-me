@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react'
+
 import SocialLinks from '../components/social-links'
 import TopNav from '../components/top-nav'
 
@@ -24,7 +25,9 @@ export default class App extends React.Component {
           <TopNav currentPage={window.location.pathname}>
 
             <div className={[styles.marginLeft]}>
+
               {this.props.children}
+
             </div>
 
           </TopNav>

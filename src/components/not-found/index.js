@@ -1,5 +1,7 @@
 import React from 'react'
 
+import StyledText from '../styled-text'
+
 export default class NotFound extends React.Component {
 
   componentWillMount() {
@@ -7,6 +9,6 @@ export default class NotFound extends React.Component {
   }
 
   render() {
-    return <h1>Page Not Found. Redirecting...</h1>
+    return <StyledText text="Page Not Found. Redirecting..." size="billboard" color="gray" />
   }
 }

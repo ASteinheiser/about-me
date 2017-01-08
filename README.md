@@ -4,12 +4,12 @@
 - [ ] About
   - [ ] Short Bio
     - [ ] mention hackster tutorials
-  - [ ] Creative Design
-  - [ ] Resume
+    - [ ] mention github
+  - [x] Resume
 
 - [ ] Blog
   - [ ] IoT Skateboard
   - [ ] Computer in a Can
   - [ ] Business Cards
-  - [ ] Design
-  - [ ] Make a post
+  - [x] Design
+  - [x] Make a post
