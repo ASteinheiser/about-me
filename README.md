@@ -5,9 +5,10 @@
   - [ ] Computer in a Can
   - [ ] Business Cards
 
-- [ ] Close sidebar functionality
-
-- [ ] Add gallery feature to blog posts
+- [ ] Make site mobile friendly
+  - [ ] Close sidebar functionality
 
 - [ ] Create page to post blog posts
   - [ ] add /blog/post with a password to sign in
+
+- [ ] Add gallery feature to blog posts
