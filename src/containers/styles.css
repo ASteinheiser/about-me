@@ -44,3 +44,7 @@
 .innerWidth {
   width: 850px;
 }
+
+.paddingLeft {
+  padding-left: 10px;
+}

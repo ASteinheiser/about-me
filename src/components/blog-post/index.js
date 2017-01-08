@@ -16,23 +16,24 @@ export default class BlogPost extends React.Component {
   constructor(props) {
     super(props)
     this.state = { childVisible: false }
-    this.state = { chevron: 'fa fa-chevron-up' }
+    this.state = { chevron: 'fa fa-chevron-right' }
     this.onClick = this.onClick.bind(this)
   }
 
   onClick() {
     this.setState({ childVisible: !this.state.childVisible })
-    if (this.state.chevron === 'fa fa-chevron-up') {
+    if (this.state.chevron === 'fa fa-chevron-right') {
       this.setState({ chevron: 'fa fa-chevron-down' })
     } else {
-      this.setState({ chevron: 'fa fa-chevron-up' })
+      this.setState({ chevron: 'fa fa-chevron-right' })
     }
   }
 
   render() {
     const classes = classnames(
       this.state.chevron,
-      styles.button
+      styles.button,
+      { [`${styles.paddingLeft}`]: this.state.chevron === 'fa fa-chevron-right' }
     )
 
     return (
