@@ -12,3 +12,11 @@
   - [ ] add /blog/post with a password to sign in
 
 - [ ] Add gallery feature to blog posts
+
+- [ ] Better sidebar picture(collage)
+
+- [ ] Make sure site works on other browsers
+  - [ ] Safari
+  - [ ] Firefox
+  - [ ] IE Edge
+  
