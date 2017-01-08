@@ -4,7 +4,9 @@
 
   cursor: pointer;
   text-decoration: none;
-  margin: 0px 0px 0px 10px;
+
+  padding: 0px 5px 0px 10px;
+  border-radius: 5px;
 }
 
 .socialButton:visited {
@@ -12,12 +14,12 @@
 }
 
 .socialButton:hover {
-  color: #0a4740;
+  background-color: rgba(55, 55, 55, 0.6);
 }
 
 .hackster {
-  font-family: sans-serif;
-  font-weight: bold;
+  width: 33px;
+  padding-right: 7px;
 }
 
 .divider {
@@ -28,9 +30,9 @@
 
 .socialContainer {
   position: absolute;
-  left: 10px;
+  left: 7px;
+  right: 7px;
   bottom: 20px;
-  right: 10px;
 
   padding-bottom: 10px;
 

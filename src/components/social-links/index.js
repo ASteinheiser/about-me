@@ -41,9 +41,7 @@ export default class SocialLinks extends React.Component {
 
         <a target="_blank" href="https://www.hackster.io/andrewstein" className={[styles.socialButton]}>
 
-          <span className={[styles.hackster]}>H</span>
-
-          <div className={[styles.divider]} />
+          <img className={[styles.hackster]} src="https://s3-us-west-2.amazonaws.com/iamandrew.io-images/hackster.svg" role="presentation" />
 
           <StyledText
             text="Hackster"
