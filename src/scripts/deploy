@@ -23,7 +23,7 @@ echo "sudo forever stop server.js"
 echo "sudo npm i"
 echo "sudo forever start server.js"
 echo ""
-read -p "Press any key to continue... "
+read -p "Press [Enter] key to continue... "
 
 git add .
 git commit -m "${1}"
