@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react'
 
+import SocialLinks from '../components/social-links'
 import TopNav from '../components/top-nav'
 
 import styles from './styles.css'
@@ -11,7 +12,15 @@ const propTypes = {
 export default class App extends React.Component {
   render() {
     return (
-      <div className={[styles.layout]}>
+      <div className={[styles.fullWindow]}>
+
+        <div className={[styles.sidebar]}>
+
+          <SocialLinks />
+
+        </div>
+
+        <div className={[styles.content]}>
 
           <TopNav currentPage={window.location.pathname}>
 
@@ -23,6 +32,7 @@ export default class App extends React.Component {
 
           </TopNav>
 
+        </div>
       </div>
     )
   }

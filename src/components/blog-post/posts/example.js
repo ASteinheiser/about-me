@@ -1,0 +1,4 @@
+module.exports = {
+  title: 'Example post',
+  body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor velit ante, quis aliquam mi varius a. Pellentesque tristique nisi sed mauris semper, sagittis accumsan eros efficitur. Nam in lorem mi. Suspendisse fermentum facilisis malesuada. Aliquam erat volutpat. Nam porttitor purus a ex aliquet, ut facilisis purus sagittis. Maecenas imperdiet vestibulum ante eu tempor. Sed sollicitudin et libero vel accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque auctor velit ante, quis aliquam mi varius a. Pellentesque tristique nisi sed mauris semper, sagittis accumsan eros efficitur. Nam in lorem mi. Suspendisse fermentum facilisis malesuada. Aliquam erat volutpat. Nam porttitor purus a ex aliquet, ut facilisis purus sagittis. Maecenas imperdiet vestibulum ante eu tempor. Sed sollicitudin et libero vel accumsan.',
+}

@@ -2,7 +2,8 @@ import React from 'react'
 import { Route, IndexRoute } from 'react-router'
 
 import Layout from '../containers/layout'
-import Dashboard from '../containers/dashboard'
+import About from '../containers/about'
+import Blog from '../containers/blog'
 import NotFound from '../components/not-found'
 
 export default (
@@ -10,7 +11,9 @@ export default (
 
     <Route path="/" component={Layout}>
 
-      <IndexRoute component={Dashboard} />
+      <IndexRoute component={About} />
+
+      <Route path="blog" component={Blog} />
 
     </Route>
 

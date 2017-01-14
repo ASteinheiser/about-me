@@ -1,5 +1,7 @@
 import React, { PropTypes } from 'react'
 
+import TopNavTab from '../top-nav-tab'
+
 import styles from './styles.css'
 
 const propTypes = {
@@ -14,6 +16,18 @@ export default class TopNav extends React.Component {
       <div className={[styles.bodyWidth]}>
 
         <div className={[styles.topNavContainer]}>
+
+          <TopNavTab
+            text="About"
+            linkTo="/"
+            active={this.props.currentPage === '/'}
+          />
+
+          <TopNavTab
+            text="Blog"
+            linkTo="/blog"
+            active={this.props.currentPage === '/blog'}
+          />
 
         </div>
 
