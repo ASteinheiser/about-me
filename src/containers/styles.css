@@ -1,59 +1,19 @@
-.fullWindow {
+.layout {
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
+
   height: 100%;
   width: 100%;
-}
 
-.sidebar {
-  background-image: url(https://s3-us-west-2.amazonaws.com/iamandrew.io-images/standing-bow.jpg);
-  background-size: cover;
-
-  height: 100%;
-  width: 300px;
-  min-height: 700px;
-
-  position: relative;
-  float: left;
-}
-
-.content {
   background: #373737;
   background-size: cover;
 
-  height: 100%;
-  min-height: 700px;
-  width: -webkit-calc(100% - 300px);
-
-  position: relative;
-
   overflow: scroll;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 .marginLeft {
   margin-left: 25px;
-}
-
-.noDecoration {
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.innerWidth {
-  width: 850px;
-}
-
-.paddingLeft {
-  padding-left: 10px;
-}
-
-.borderTop {
-  border-top: 2px solid rgb(74, 189, 172);
-
-  padding-top: 35px;
-  width: 850px;
-
-  padding-left: 10px;
 }
