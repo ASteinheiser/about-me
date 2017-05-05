@@ -14,7 +14,7 @@
 }
 
 .socialButton:hover {
-  background-color: rgba(55, 55, 55, 0.6);
+  background-color: rgba(74, 189, 172, 0.5);
 }
 
 .hackster {
@@ -28,21 +28,6 @@
   display: inline-block;
 }
 
-.socialContainer {
-  position: absolute;
-  left: 7px;
-  right: 7px;
-  bottom: 40px;
-
-  padding: 15px 0px 15px 0px;
-
+.centerText {
   text-align: center;
-  border-radius: 15px;
-
-  background-color: rgba(223, 220, 227, 0.45);
-}
-
-.paddingLeftAndTop {
-  padding-left: 15px;
-  padding-top: 5px;
 }

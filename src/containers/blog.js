@@ -10,33 +10,24 @@ import styles from './styles.css'
 export default class Blog extends React.Component {
   render() {
     return (
-      <div className={[styles.innerWidth]}>
-        <br />
-
-        <span className={[styles.paddingLeft]}>
-          <StyledText
-            text="Recent projects, new tech, etc."
-            size="large"
-            color="blue"
-          />
-        </span>
-
+      <div>
+        <StyledText
+          text="Recent projects, new tech, etc."
+          size="large"
+          color="blue"
+        />
         <br />
         <br />
-
         <BlogPost
           title={post.title}
           body={post.body}
         />
-
         <BlogPost
           title={post.title}
           body={post.body}
         />
-
         <br />
         <br />
-
       </div>
     )
   }
