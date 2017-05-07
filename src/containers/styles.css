@@ -1,4 +1,6 @@
 .window {
+  display: flex;
+
   position: absolute;
   top: 0;
   bottom: 0;
@@ -7,11 +9,6 @@
 
   background: #373737;
   overflow: scroll;
-}
-
-.content {
-  width: 900px;
-  padding: 15px 0px 0px 20px;
 }
 
 .borderTop {

@@ -12,11 +12,11 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <div className={[styles.window]}>
+
         <TopNav currentPage={window.location.pathname}>
-          <div className={[styles.content]}>
-            {this.props.children}
-          </div>
+          {this.props.children}
         </TopNav>
+
       </div>
     )
   }

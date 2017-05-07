@@ -13,20 +13,20 @@ export default class TopNav extends React.Component {
 
   render() {
     return (
-      <div className={[styles.bodyWidth]}>
+      <div className={[styles.content]}>
 
         <div className={[styles.topNavContainer]}>
 
           <TopNavTab
-            text="About"
-            linkTo="/"
-            active={this.props.currentPage === '/'}
+            text="about"
+            linkTo="/about"
+            active={this.props.currentPage === '/about'}
           />
 
           <TopNavTab
-            text="Blog"
-            linkTo="/blog"
-            active={this.props.currentPage === '/blog'}
+            text="read"
+            linkTo="/"
+            active={this.props.currentPage === '/'}
           />
 
         </div>
