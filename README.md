@@ -1,14 +1,2 @@
 # iamandrew.io
-
-## To-do
-
-- [ ] Blog
-  - [ ] Computer in a Can
-  - [ ] Business Cards
-
-- [ ] Close sidebar functionality
-
-- [ ] Add gallery feature to blog posts
-
-- [ ] Create page to post blog posts
-  - [ ] add /blog/post with a password to sign in
+This is a simple site that I created using [React.js](https://facebook.github.io/react/) to showcase my projects and articles as well as providing my contact information.
