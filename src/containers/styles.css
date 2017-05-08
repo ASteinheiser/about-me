@@ -1,5 +1,6 @@
 .window {
   display: flex;
+  flex-direction: column;
 
   position: absolute;
   top: 0;
@@ -9,6 +10,26 @@
 
   background: #373737;
   overflow: scroll;
+}
+
+.content {
+  min-width: 660px;
+}
+
+.blogHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 25px;
+}
+
+.blogBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin: 25px 0px;
 }
 
 .borderTop {
