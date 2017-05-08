@@ -1,6 +1,7 @@
 .window {
   display: flex;
   flex-direction: column;
+  overflow: scroll;
 
   position: absolute;
   top: 0;
@@ -8,8 +9,8 @@
   left: 0;
   right: 0;
 
-  background: #373737;
-  overflow: scroll;
+  background-image: url("https://static.pexels.com/photos/34578/pexels-photo.jpg");
+  background-size: cover;
 }
 
 .content {
