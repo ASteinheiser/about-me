@@ -17,14 +17,6 @@
   min-width: 860px;
 }
 
-.blogHeader {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  margin-top: 25px;
-}
-
 .blogBody {
   display: flex;
   flex-wrap: wrap;
