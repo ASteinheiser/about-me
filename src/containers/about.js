@@ -8,19 +8,19 @@ import styles from './styles.css'
 export default class Home extends React.Component {
   render() {
     return (
-      <div>
-        <StyledText
-          text="I AM ANDREW"
-          size="billboard"
-          color="blue"
-        />
-        <br />
-        <br />
-        <div className={[styles.borderTop]}>
+      <div className={[styles.aboutBody]}>
+        <div className={[styles.header]}>
+          <StyledText
+            text="I AM ANDREW"
+            size="billboard"
+            color="blue"
+          />
+        </div>
+        <div className={[styles.aboutContent]}>
           <StyledText
             text="I like to make websites with React.js, connect things to the internet, tinker, and write guides on how to make your own Internet of Things (IoT) devices!"
             size="regular"
-            color="white"
+            color="black"
           />
           <br />
           <br />
@@ -28,16 +28,17 @@ export default class Home extends React.Component {
           <StyledText
             text="You can check out my IoT projects on Hackster.io, and keep up with my code on Github.com... Links below!"
             size="regular"
-            color="white"
+            color="black"
           />
           <br />
           <br />
           <br />
           <StyledText
-            text="If you would like to contact me, my email is"
+            text="If you would like to contact me, my email is:"
             size="regular"
-            color="white"
+            color="black"
           />
+          <br/>
           <StyledText
             text=" me@iamandrew.io"
             size="regular"
@@ -46,18 +47,17 @@ export default class Home extends React.Component {
           <br />
           <br />
           <br />
+          <SocialLinks />
+          <br />
+          <br />
           <a target="_blank" href="https://s3-us-west-2.amazonaws.com/iamandrew.io-images/resume2017.pdf" className={[styles.noDecoration]}>
             <StyledText
               text="Click here to view my resume"
               size="regular"
-              color="white"
+              color="black"
               hoverBlue
             />
           </a>
-          <br />
-          <br />
-          <br />
-          <SocialLinks />
         </div>
       </div>
     )

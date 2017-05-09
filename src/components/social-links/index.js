@@ -8,8 +8,7 @@ export default class SocialLinks extends React.Component {
 
   render() {
     return (
-      <div className={[styles.centerText]}>
-
+      <div>
         <a target="_blank" href="https://github.com/ASteinheiser" className={[styles.socialButton]}>
           <i className="fa fa-github-square" />
           <div className={[styles.divider]} />
@@ -31,16 +30,19 @@ export default class SocialLinks extends React.Component {
           />
         </a>
 
-        <a target="_blank" href="https://twitter.com/ASteinheiser" className={[styles.socialButton]}>
-          <i className="fa fa-twitter-square" />
+        <a target="_blank" href="https://www.instagram.com/asteinheiser/" className={[styles.socialButton]}>
+          <i className="fa fa-instagram" />
           <div className={[styles.divider]} />
           <StyledText
-            text="Twitter"
+            text="Instagram"
             size="small"
             bold
             topAlign
           />
         </a>
+
+        <br/>
+        <br/>
 
         <a target="_blank" href="https://www.linkedin.com/in/andrew-steinheiser-8989b1122" className={[styles.socialButton]}>
           <i className="fa fa-linkedin" />
@@ -53,11 +55,11 @@ export default class SocialLinks extends React.Component {
           />
         </a>
 
-        <a target="_blank" href="https://www.instagram.com/asteinheiser/" className={[styles.socialButton]}>
-          <i className="fa fa-instagram" />
+        <a target="_blank" href="https://twitter.com/ASteinheiser" className={[styles.socialButton]}>
+          <i className="fa fa-twitter-square" />
           <div className={[styles.divider]} />
           <StyledText
-            text="Insta"
+            text="Twitter"
             size="small"
             bold
             topAlign
@@ -74,7 +76,6 @@ export default class SocialLinks extends React.Component {
             topAlign
           />
         </a>
-
       </div>
     )
   }
