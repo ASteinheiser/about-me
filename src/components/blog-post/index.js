@@ -14,7 +14,7 @@ const propTypes = {
 export default class BlogPost extends React.Component {
   render() {
     return (
-      <a href={this.props.link} className={[styles.blogContainer]}>
+      <a href={this.props.link} className={[styles.blogContainer]} target="_blank">
         <img src={this.props.image} className={[styles.image]}/>
 
         <div className={[styles.text]}>
