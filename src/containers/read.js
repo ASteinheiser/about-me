@@ -8,8 +8,7 @@ import styles from './styles.css'
 
 export default class Blog extends React.Component {
   render() {
-
-    const blogPosts = _.map(posts, post => <BlogPost title={post.title} image={post.image} link={post.link}/>)
+    const blogPosts = _.map(posts, post => <BlogPost title={post.title} image={post.image} link={post.link} key={post.id}/>)
 
     return (
       <div className={[styles.blogBody]}>
