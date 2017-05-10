@@ -1,14 +1,44 @@
 module.exports = {
-  "post1": {
+  "1": {
     "id": 1,
-    "title": "This is a nice title",
-    "image": "http://www.sandiego-tech.com/wp-content/uploads/2016/09/tech3.jpg",
-    "link": "http://www.google.com"
+    "title": "Sip Detecting Koozie - Combining ML and IoT",
+    "image": "https://cdn-images-1.medium.com/max/800/1*2wmdbFdEuUi2kUpWk77nxg.jpeg",
+    "link": "https://medium.com/octoblu-engineering/building-a-sip-detector-combining-machine-learning-and-iot-723dfd1719b6"
   },
-  "post2": {
+  "2": {
     "id": 2,
-    "title": "another one",
-    "image": "http://www.sandiego-tech.com/wp-content/uploads/2016/09/tech3.jpg",
-    "link": "http://www.google.com"
+    "title": "Photon Baby Monitor - HackAz 2016",
+    "image": "https://hackster.imgix.net/uploads/cover_image/file/114654/IMG_20160123_164142.jpg?auto=compress%2Cformat&w=900&h=675&fit=min",
+    "link": "https://www.hackster.io/andrewstein/wifi-baby-monitor-with-nodejs-ios-photon-and-parse-190ddb"
+  },
+  "3": {
+    "id": 3,
+    "title": "Controlling a Drone Swarm with Hand Gestures",
+    "image": "https://hackster.imgix.net/uploads/cover_image/file/109355/drones!.jpg?auto=compress%2Cformat&w=900&h=675&fit=min",
+    "link": "https://www.hackster.io/andrewstein/control-your-drone-swarm-with-hand-gestures-2fd3cd"
+  },
+  "4": {
+    "id": 4,
+    "title": "LEDs Powered by Twitter Sentiment Analysis",
+    "image": "https://hackster.imgix.net/uploads/cover_image/file/162589/Redboard%20sentiment%20analysis.png?auto=compress%2Cformat&w=900&h=675&fit=min",
+    "link": "https://www.hackster.io/andrewstein/led-displayed-twitter-sentiment-analysis-715e0c"
+  },
+  "5": {
+    "id": 5,
+    "title": "Use Chat Commands to Control IoT Devices",
+    "image": "https://hackster.imgix.net/uploads/cover_image/file/153982/Slack%20plus%20Octoblu.png?auto=compress%2Cformat&w=900&h=675&fit=min",
+    "link": "https://www.hackster.io/andrewstein/control-anything-with-slack-messages-via-octoblu-626122"
+  },
+  "6": {
+    "id": 6,
+    "title": "Twitter Controlled Reaper #Octoween",
+    "image": "https://hackster.imgix.net/uploads/cover_image/file/88980/CRxiyrRWwAEB-dR_vectorized.png?auto=compress%2Cformat&w=900&h=675&fit=min",
+    "link": "https://www.hackster.io/octoblu-team/twitter-controlled-reaper-via-octoblu-ca5134"
+  },
+  "7": {
+    "id": 7,
+    "title": "Octoblu and Wunderbar Powered Baby Monitor",
+    "image": "https://hackster.imgix.net/uploads/cover_image/file/27668/Screen_Shot_2015-01-27_at_4.15.50_PM.png?auto=compress%2Cformat&w=900&h=675&fit=min",
+    "link": "https://www.hackster.io/andrewstein/octoblu-and-wunderbar-baby-monitor-that-texts-you-updates-a2cb6d"
   }
 }
