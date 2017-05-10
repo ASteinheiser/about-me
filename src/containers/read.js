@@ -1,54 +1,19 @@
+import _ from 'lodash'
 import React from 'react'
 
-import StyledText from '../components/styled-text'
 import BlogPost from '../components/blog-post'
+import posts from '../config/blog-posts.json'
 
 import styles from './styles.css'
 
 export default class Blog extends React.Component {
   render() {
+
+    const blogPosts = _.map(posts, post => <BlogPost title={post.title} image={post.image} link={post.link}/>)
+
     return (
       <div className={[styles.blogBody]}>
-        <BlogPost
-          title="hello world"
-          image="http://www.sandiego-tech.com/wp-content/uploads/2016/09/tech3.jpg"
-          link="http://www.google.com"
-        />
-        <BlogPost
-          title="hello world"
-          image="http://www.sandiego-tech.com/wp-content/uploads/2016/09/tech3.jpg"
-          link="http://www.google.com"
-        />
-        <BlogPost
-          title="hello world"
-          image="http://www.sandiego-tech.com/wp-content/uploads/2016/09/tech3.jpg"
-          link="http://www.google.com"
-        />
-        <BlogPost
-          title="hello world"
-          image="http://www.sandiego-tech.com/wp-content/uploads/2016/09/tech3.jpg"
-          link="http://www.google.com"
-        />
-        <BlogPost
-          title="hello world"
-          image="http://www.sandiego-tech.com/wp-content/uploads/2016/09/tech3.jpg"
-          link="http://www.google.com"
-        />
-        <BlogPost
-          title="hello world"
-          image="http://www.sandiego-tech.com/wp-content/uploads/2016/09/tech3.jpg"
-          link="http://www.google.com"
-        />
-        <BlogPost
-          title="hello world"
-          image="http://www.sandiego-tech.com/wp-content/uploads/2016/09/tech3.jpg"
-          link="http://www.google.com"
-        />
-        <BlogPost
-          title="hello world"
-          image="http://www.sandiego-tech.com/wp-content/uploads/2016/09/tech3.jpg"
-          link="http://www.google.com"
-        />
+        {blogPosts}
       </div>
     )
   }
