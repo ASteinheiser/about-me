@@ -18,6 +18,10 @@
   color: #328a7d;
 }
 
+.red {
+  color: #a90000;
+}
+
 .black {
   color: #000000;
 }
@@ -49,4 +53,8 @@
 
 .hoverBlue:hover {
   color: #328a7d;
+}
+
+.hoverRed:hover {
+  color: #a90000;
 }

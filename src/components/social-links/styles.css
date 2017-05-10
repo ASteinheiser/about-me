@@ -15,7 +15,7 @@
 }
 
 .socialButton:hover {
-  background-color: rgba(50, 138, 125, 0.45);
+  border-bottom: 2px solid #000000;
 }
 
 .hackster {

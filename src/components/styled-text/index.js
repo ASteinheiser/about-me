@@ -12,6 +12,7 @@ const propTypes = {
   color: PropTypes.oneOf(TEXT_COLORS),
   bold: PropTypes.boolean,
   hoverBlue: PropTypes.boolean,
+  hoverRed: PropTypes.boolean,
   topAlign: PropTypes.boolean,
   className: PropTypes.string,
 }
@@ -24,6 +25,7 @@ export default class StyledText extends React.Component {
       styles[this.props.size],
       { [`${styles.bold}`]: this.props.bold },
       { [`${styles.hoverBlue}`]: this.props.hoverBlue },
+      { [`${styles.hoverRed}`]: this.props.hoverRed },
       { [`${styles.topAlign}`]: this.props.topAlign },
       this.props.className,
       styles.font
