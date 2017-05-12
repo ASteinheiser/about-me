@@ -17,28 +17,52 @@ module.exports = {
     "image": "https://hackster.imgix.net/uploads/cover_image/file/109355/drones!.jpg?auto=compress%2Cformat&w=900&h=675&fit=min",
     "link": "https://www.hackster.io/andrewstein/control-your-drone-swarm-with-hand-gestures-2fd3cd"
   },
-  "4": {
-    "id": 4,
+  "10": {
+    "id": 10,
     "title": "LEDs Powered by Twitter Sentiment Analysis",
     "image": "https://hackster.imgix.net/uploads/cover_image/file/162589/Redboard%20sentiment%20analysis.png?auto=compress%2Cformat&w=900&h=675&fit=min",
     "link": "https://www.hackster.io/andrewstein/led-displayed-twitter-sentiment-analysis-715e0c"
   },
-  "5": {
-    "id": 5,
+  "8": {
+    "id": 8,
     "title": "Use Chat Commands to Control IoT Devices",
     "image": "https://hackster.imgix.net/uploads/cover_image/file/153982/Slack%20plus%20Octoblu.png?auto=compress%2Cformat&w=900&h=675&fit=min",
     "link": "https://www.hackster.io/andrewstein/control-anything-with-slack-messages-via-octoblu-626122"
   },
-  "6": {
-    "id": 6,
+  "5": {
+    "id": 5,
     "title": "Twitter Controlled Reaper #Octoween",
     "image": "https://hackster.imgix.net/uploads/cover_image/file/88980/CRxiyrRWwAEB-dR_vectorized.png?auto=compress%2Cformat&w=900&h=675&fit=min",
     "link": "https://www.hackster.io/octoblu-team/twitter-controlled-reaper-via-octoblu-ca5134"
   },
-  "7": {
-    "id": 7,
+  "11": {
+    "id": 11,
     "title": "Octoblu and Wunderbar Powered Baby Monitor",
     "image": "https://hackster.imgix.net/uploads/cover_image/file/27668/Screen_Shot_2015-01-27_at_4.15.50_PM.png?auto=compress%2Cformat&w=900&h=675&fit=min",
     "link": "https://www.hackster.io/andrewstein/octoblu-and-wunderbar-baby-monitor-that-texts-you-updates-a2cb6d"
+  },
+  "4": {
+    "id": 4,
+    "title": "Meshblu API Tutorial - meshblu-koans",
+    "image": "https://raw.github.com/rvagg/learnyounode/master/learnyounode.png",
+    "link": "https://octoblu.github.io/meshblu-koans/"
+  },
+  "6": {
+    "id": 6,
+    "title": "React Webpage and Component Generator",
+    "image": "https://camo.githubusercontent.com/2dc2f74d69c7949dc0a8e6c4b94c51585ca560f4/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3932353733352f313935313036332f61663338336665342d383136612d313165332d393266382d6161633836633235366635652e706e67",
+    "link": "https://github.com/octoblu/generator-zooid"
+  },
+  "7": {
+    "id": 7,
+    "title": "React Source Code - iamandrew.io",
+    "image": "https://d1dkupr86d302v.cloudfront.net/community/assets/social-media-icons/icon-tag-react-0890ee78bd7e182d153900e4af5b1f33561afdac384c6191eab4e90528b0781b.png",
+    "link": "https://github.com/ASteinheiser/iamandrew.io"
+  },
+  "9": {
+    "id": 9,
+    "title": "Meshblu Custom Device Boilerplate",
+    "image": "http://i.imgur.com/Y5ONA9u.png",
+    "link": "https://github.com/ASteinheiser/meshblu-custom-device-boilerplate"
   }
 }
