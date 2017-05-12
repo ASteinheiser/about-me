@@ -35,8 +35,8 @@ module.exports = {
     "image": "https://hackster.imgix.net/uploads/cover_image/file/88980/CRxiyrRWwAEB-dR_vectorized.png?auto=compress%2Cformat&w=900&h=675&fit=min",
     "link": "https://www.hackster.io/octoblu-team/twitter-controlled-reaper-via-octoblu-ca5134"
   },
-  "11": {
-    "id": 11,
+  "12": {
+    "id": 12,
     "title": "Octoblu and Wunderbar Powered Baby Monitor",
     "image": "https://hackster.imgix.net/uploads/cover_image/file/27668/Screen_Shot_2015-01-27_at_4.15.50_PM.png?auto=compress%2Cformat&w=900&h=675&fit=min",
     "link": "https://www.hackster.io/andrewstein/octoblu-and-wunderbar-baby-monitor-that-texts-you-updates-a2cb6d"
@@ -64,5 +64,11 @@ module.exports = {
     "title": "Meshblu Custom Device Boilerplate",
     "image": "http://i.imgur.com/Y5ONA9u.png",
     "link": "https://github.com/ASteinheiser/meshblu-custom-device-boilerplate"
+  },
+  "11": {
+    "id": 11,
+    "title": "Watson Image Recognition Microservice",
+    "image": "https://www.compusoluciones.com/wp-content/uploads/2016/02/watson.png",
+    "link": "https://github.com/ASteinheiser/Drewatson"
   }
 }
