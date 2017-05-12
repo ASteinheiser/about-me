@@ -24,11 +24,17 @@
   flex-wrap: wrap;
   justify-content: center;
 
-  margin: 25px 0px;
+  margin: 25px auto;
+  max-width: 1290px;
 }
 
 .aboutBody {
-  max-width: 860px;
+  max-width: 1290px;
+  margin: auto;
+}
+
+.innerWidth {
+  width: 860px;
 }
 
 .aboutContent {

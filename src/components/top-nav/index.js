@@ -13,16 +13,18 @@ export default class TopNav extends React.Component {
   render() {
     return (
       <div className={[styles.navBar]}>
-        <TopNavTab
-          text="about"
-          linkTo="/about"
-          active={this.props.currentPage === '/about'}
-        />
-        <TopNavTab
-          text="read"
-          linkTo="/"
-          active={this.props.currentPage === '/'}
-        />
+        <div className={[styles.width]}>
+          <TopNavTab
+            text="about"
+            linkTo="/about"
+            active={this.props.currentPage === '/about'}
+          />
+          <TopNavTab
+            text="read"
+            linkTo="/"
+            active={this.props.currentPage === '/'}
+          />
+        </div>
       </div>
     )
   }
