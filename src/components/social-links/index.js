@@ -15,7 +15,6 @@ export default class SocialLinks extends React.Component {
           <StyledText
             text="Github"
             size="small"
-            bold
             topAlign
           />
         </a>
@@ -25,7 +24,6 @@ export default class SocialLinks extends React.Component {
           <StyledText
             text="Hackster"
             size="small"
-            bold
             topAlign
           />
         </a>
@@ -36,7 +34,6 @@ export default class SocialLinks extends React.Component {
           <StyledText
             text="Instagram"
             size="small"
-            bold
             topAlign
           />
         </a>
@@ -50,7 +47,6 @@ export default class SocialLinks extends React.Component {
           <StyledText
             text="Linkedin"
             size="small"
-            bold
             topAlign
           />
         </a>
@@ -61,7 +57,6 @@ export default class SocialLinks extends React.Component {
           <StyledText
             text="Twitter"
             size="small"
-            bold
             topAlign
           />
         </a>
@@ -72,7 +67,6 @@ export default class SocialLinks extends React.Component {
           <StyledText
             text="Facebook"
             size="small"
-            bold
             topAlign
           />
         </a>
