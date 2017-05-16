@@ -5,7 +5,7 @@ import SocialLinks from '../components/social-links'
 
 import styles from './styles.css'
 
-export default class Home extends React.Component {
+export default class Contact extends React.Component {
   render() {
     return (
       <div className={[styles.aboutBody]}>

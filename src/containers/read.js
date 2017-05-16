@@ -6,7 +6,7 @@ import posts from '../config/blog-posts.json'
 
 import styles from './styles.css'
 
-export default class Blog extends React.Component {
+export default class Read extends React.Component {
   render() {
     const blogPosts = _.map(posts, post => <BlogPost title={post.title} image={post.image} link={post.link} key={post.id}/>)
 
