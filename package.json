@@ -1,7 +1,7 @@
 {
-  "name": "about-me",
+  "name": "iamandrew.io",
   "version": "2.0.0",
-  "description": "about-me",
+  "description": "iamandrew.io",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -16,15 +16,15 @@
     "babel",
     "webpack"
   ],
-  "homepage": "https://github.com/ASteinheiser/about-me",
-  "bugs": "https://github.com/ASteinheiser/about-me/issues",
+  "homepage": "https://github.com/ASteinheiser/iamandrew.io",
+  "bugs": "https://github.com/ASteinheiser/iamandrew.io/issues",
   "author": {
     "name": "Andrew Steinheiser",
     "url": "https://github.com/ASteinheiser"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ASteinheiser/about-me.git"
+    "url": "https://github.com/ASteinheiser/iamandrew.io.git"
   },
   "license": "MIT",
   "dependencies": {
