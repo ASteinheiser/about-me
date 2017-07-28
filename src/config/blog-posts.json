@@ -1,4 +1,10 @@
 module.exports = {
+  "0": {
+    "id": 0,
+    "title": "SΛVG Thread - Embrace Individuality",
+    "image": "http://i.imgur.com/vr1JtbO.png",
+    "link": "https://savgthread.com"
+  },
   "1": {
     "id": 1,
     "title": "Sip Detecting Koozie - Combining ML and IoT",
