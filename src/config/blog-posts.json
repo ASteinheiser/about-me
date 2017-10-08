@@ -1,8 +1,8 @@
 module.exports = {
   "0": {
     "id": 0,
-    "title": "SΛVG Thread - Embrace Individuality",
-    "image": "http://i.imgur.com/vr1JtbO.png",
+    "title": "SΛVG Thread - Local Streetwear Company",
+    "image": "https://i.imgur.com/p0lNmQo.jpg",
     "link": "https://savgthread.com"
   },
   "1": {
@@ -74,7 +74,7 @@ module.exports = {
   "11": {
     "id": 11,
     "title": "Watson Image Recognition Microservice",
-    "image": "https://www.compusoluciones.com/wp-content/uploads/2016/02/watson.png",
+    "image": "https://cognitivebuilder.com/wp-content/uploads/2017/05/IBM-Watson_logo2-e1493752611672.png",
     "link": "https://github.com/ASteinheiser/Drewatson"
   }
 }
