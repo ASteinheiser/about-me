@@ -58,3 +58,8 @@
 .hoverRed:hover {
   color: #a90000;
 }
+
+.hoverRedOutline:hover {
+  color: #a90000;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

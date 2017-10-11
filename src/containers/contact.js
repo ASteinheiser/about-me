@@ -40,10 +40,18 @@ export default class Contact extends React.Component {
             <br />
             <br />
             <StyledText
-              text="CONTACT ME: me@iamandrew.io"
+              text="CONTACT ME: "
               size="regular"
               color="black"
             />
+            <a target="_blank" href="mailto:me@iamandrew.io" className={[styles.noDecoration]}>
+              <StyledText
+                text="me@iamandrew.io"
+                size="regular"
+                color="black"
+                hoverRedOutline
+              />
+            </a>
             <br />
             <br />
             <a target="_blank" href="https://s3-us-west-2.amazonaws.com/iamandrew.io-images/resume2017.pdf" className={[styles.noDecoration]}>
@@ -51,7 +59,7 @@ export default class Contact extends React.Component {
                 text="CLICK HERE to view my Resumé"
                 size="regular"
                 color="black"
-                hoverRed
+                hoverRedOutline
               />
             </a>
             <br />

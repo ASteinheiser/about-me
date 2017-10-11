@@ -26,6 +26,7 @@ export default class StyledText extends React.Component {
       { [`${styles.bold}`]: this.props.bold },
       { [`${styles.hoverBlue}`]: this.props.hoverBlue },
       { [`${styles.hoverRed}`]: this.props.hoverRed },
+      { [`${styles.hoverRedOutline}`]: this.props.hoverRedOutline },
       { [`${styles.topAlign}`]: this.props.topAlign },
       this.props.className,
       styles.font

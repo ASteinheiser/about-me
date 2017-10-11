@@ -15,6 +15,7 @@
 
 .socialButton:hover {
   border-bottom: 2px solid #000000;
+  border-top: 2px solid #000000;
 }
 
 .hackster {
