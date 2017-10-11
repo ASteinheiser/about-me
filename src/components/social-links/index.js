@@ -8,7 +8,7 @@ export default class SocialLinks extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className={[styles.center]}>
         <a target="_blank" href="https://github.com/ASteinheiser" className={[styles.socialButton]}>
           <i className="fa fa-github-square" />
           <div className={[styles.divider]} />

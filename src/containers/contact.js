@@ -12,21 +12,21 @@ export default class Contact extends React.Component {
         <div className={[styles.innerWidth]}>
           <div className={[styles.header]}>
             <StyledText
-              text="iamandrew"
+              text="I am Andrew..."
               size="billboard"
               color="red"
             />
           </div>
           <div className={[styles.aboutContent]}>
             <StyledText
-              text="And I work as an intern at Octoblu, study Computer Science at Arizona State University, and love to attend Hackathons."
+              text="... Steinheiser. I'm a programmer, artist, and business owner."
               size="regular"
               color="black"
             />
             <br />
             <br />
             <StyledText
-              text="In my freetime I like to make websites with React.js, connect things to the internet, tinker, and write guides on how to make your own Internet of Things (IoT) devices!"
+              text="My most recent work has revolved around creating sites with React.js, connecting things to the internet, and writing guides on how to make your very own IoT devices!"
               size="regular"
               color="black"
             />
@@ -39,12 +39,8 @@ export default class Contact extends React.Component {
             />
             <br />
             <br />
-            <br />
-            <SocialLinks />
-            <br />
-            <br />
             <StyledText
-              text="If you would like to contact me, my email is me@iamandrew.io"
+              text="CONTACT ME: me@iamandrew.io"
               size="regular"
               color="black"
             />
@@ -52,12 +48,16 @@ export default class Contact extends React.Component {
             <br />
             <a target="_blank" href="https://s3-us-west-2.amazonaws.com/iamandrew.io-images/resume2017.pdf" className={[styles.noDecoration]}>
               <StyledText
-                text="Click here to view my resume"
+                text="CLICK HERE to view my Resumé"
                 size="regular"
                 color="black"
                 hoverRed
               />
             </a>
+            <br />
+            <br />
+            <br />
+            <SocialLinks />
           </div>
         </div>
       </div>
