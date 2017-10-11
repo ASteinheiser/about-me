@@ -12,7 +12,7 @@
 }
 
 .topNavElement:hover {
-  color: #a90000;
+  text-shadow: -1px 0 #a90000, 0 1px #a90000, 1px 0 #a90000, 0 -1px #a90000;
 }
 
 .active {
