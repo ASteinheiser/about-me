@@ -16,8 +16,8 @@ export default class TopNav extends React.Component {
         <div className={[styles.width]}>
           <TopNavTab
             text="about"
-            linkTo="/contact"
-            active={this.props.currentPage === '/contact'}
+            linkTo="/about"
+            active={this.props.currentPage === '/about'}
           />
           <TopNavTab
             text="projects"

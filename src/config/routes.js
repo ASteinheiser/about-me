@@ -10,7 +10,7 @@ export default (
   <Route>
     <Route path="/" component={Navigation}>
       <IndexRoute component={Read}/>
-      <Route path="contact" component={Contact}/>
+      <Route path="about" component={Contact}/>
     </Route>
 
     <Route path="*" status={404} component={NotFound} />
