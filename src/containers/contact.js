@@ -54,7 +54,7 @@ export default class Contact extends React.Component {
             </a>
             <br />
             <br />
-            <a target="_blank" href="https://s3-us-west-2.amazonaws.com/iamandrew.io-images/resume2017.pdf" className={[styles.noDecoration]}>
+            <a target="_blank" href="https://s3-us-west-2.amazonaws.com/iamandrew.io-images/Resume2017.pdf" className={[styles.noDecoration]}>
               <StyledText
                 text="CLICK HERE to view my Resumé"
                 size="regular"
