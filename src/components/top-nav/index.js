@@ -15,12 +15,12 @@ export default class TopNav extends React.Component {
       <div className={[styles.navBar]}>
         <div className={[styles.width]}>
           <TopNavTab
-            text="about"
+            text="About"
             linkTo="/about"
             active={this.props.currentPage === '/about'}
           />
           <TopNavTab
-            text="projects"
+            text="Projects"
             linkTo="/"
             active={this.props.currentPage === '/'}
           />
