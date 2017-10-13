@@ -12,7 +12,8 @@
 }
 
 .blogContainer:hover {
-  box-shadow: 3px 3px 25px 0px #a90000;
+  transform: scale(1.05);
+  transition: all .25s;
 }
 
 .image {

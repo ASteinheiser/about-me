@@ -49,7 +49,7 @@ export default class Contact extends React.Component {
                 text="me@iamandrew.io"
                 size="regular"
                 color="black"
-                hoverRedOutline
+                hoverUnderline
               />
             </a>
             <br />
@@ -59,7 +59,7 @@ export default class Contact extends React.Component {
                 text="CLICK HERE to view my Resumé"
                 size="regular"
                 color="black"
-                hoverRedOutline
+                hoverUnderline
               />
             </a>
             <br />
