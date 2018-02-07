@@ -21,14 +21,14 @@ export default class Contact extends React.Component {
           </div>
           <div className={[styles.aboutContent]}>
             <StyledText
-              text="... Steinheiser. I'm a developer, artist, and business owner."
+              text="... Steinheiser. I'm a developer, artist, and business owner in Tempe, AZ."
               size="regular"
               color="black"
             />
             <br />
             <br />
             <StyledText
-              text="I like to spend time creating websites like this and designing streetwear!"
+              text="I like to spend time creating websites and designing streetwear!"
               size="regular"
               color="black"
             />
@@ -57,7 +57,6 @@ export default class Contact extends React.Component {
                 hoverUnderline
               />
             </a>
-            <br />
             <br />
             <br />
             <SocialLinks />
