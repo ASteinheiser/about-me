@@ -50,6 +50,10 @@ module.exports = {
       {
         test: /\.svg$/,
         loader: "file-loader"
+      },
+      {
+        test: /\.pdf$/,
+        loader: "file-loader"
       }
     ]
   },

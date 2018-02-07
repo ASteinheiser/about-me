@@ -2,6 +2,7 @@ import React from 'react'
 
 import StyledText from '../components/styled-text'
 import SocialLinks from '../components/social-links'
+import ResumePDF from '../images/Resume_2018.pdf'
 
 import styles from './styles.css'
 
@@ -54,9 +55,9 @@ export default class Contact extends React.Component {
             </a>
             <br />
             <br />
-            <a target="_blank" href="https://s3-us-west-2.amazonaws.com/iamandrew.io-images/Resume2017.pdf" className={[styles.noDecoration]}>
+            <a target="_blank" href={ResumePDF} className={[styles.noDecoration]}>
               <StyledText
-                text="CLICK HERE to view my Resumé"
+                text="CLICK HERE to view my Resume"
                 size="regular"
                 color="black"
                 hoverUnderline
