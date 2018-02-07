@@ -15,12 +15,11 @@
 
 .content {
   margin-top: 60px;
-
-  min-width: 860px;
 }
 
 .blogBody {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 
