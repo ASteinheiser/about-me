@@ -23,6 +23,7 @@ export default class StyledText extends React.Component {
     const classes = classnames(
       styles[this.props.color],
       styles[this.props.size],
+      { [`${styles.paddingTop}`]: this.props.paddingTop },
       { [`${styles.bold}`]: this.props.bold },
       { [`${styles.hoverBlue}`]: this.props.hoverBlue },
       { [`${styles.hoverRed}`]: this.props.hoverRed },

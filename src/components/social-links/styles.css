@@ -17,6 +17,7 @@
 }
 
 .socialButton:hover {
+  height: 36px;
   border-bottom: 2px solid #000000;
   border-top: 2px solid #000000;
 }
