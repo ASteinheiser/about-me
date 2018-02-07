@@ -12,10 +12,14 @@
 }
 
 .topNavElement:hover {
-  text-shadow: -1px 0 #a90000, 0 1px #a90000, 1px 0 #a90000, 0 -1px #a90000;
+  font-weight: bold;
+  color: #a90000;
+  transition: all .35s;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 .active {
+  transition: all .35s;
   border-bottom: 2px solid #000000;
   padding-bottom: 7px;
 }
