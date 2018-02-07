@@ -13,28 +13,22 @@ export default class Contact extends React.Component {
         <div className={[styles.innerWidth]}>
           <div className={[styles.header]}>
             <StyledText
-              text="I am Andrew..."
+              text="> i am andrew"
               size="billboard"
-              color="red"
+              color="black"
+              hoverRed
             />
           </div>
           <div className={[styles.aboutContent]}>
             <StyledText
-              text="... Steinheiser. I'm a programmer, artist, and business owner."
+              text="... Steinheiser. I'm a developer, artist, and business owner."
               size="regular"
               color="black"
             />
             <br />
             <br />
             <StyledText
-              text="My most recent work has revolved around creating sites with React.js, connecting things to the internet, and writing guides on how to make your very own IoT devices!"
-              size="regular"
-              color="black"
-            />
-            <br />
-            <br />
-            <StyledText
-              text="You can check out my IoT projects on Hackster.io, and keep up with my code on Github.com..."
+              text="I like to spend time creating websites like this and designing streetwear!"
               size="regular"
               color="black"
             />
