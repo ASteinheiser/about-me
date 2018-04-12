@@ -74,7 +74,7 @@ module.exports = {
   "11": {
     "id": 11,
     "title": "Watson Image Recognition Microservice",
-    "image": "https://cognitivebuilder.com/wp-content/uploads/2017/05/IBM-Watson_logo2-e1493752611672.png",
+    "image": "https://www.iotone.com/files/vendor/ibm-watson-(ibm)_18.jpg",
     "link": "https://github.com/ASteinheiser/Drewatson"
   },
   "12": {
