@@ -1,15 +1,14 @@
-import React, { PropTypes } from 'react'
-import classnames from 'classnames'
+import React, { PropTypes } from 'react';
+import classnames           from 'classnames';
 
-import StyledText from '../styled-text'
-
-import styles from './styles.css'
+import StyledText from '../styled-text';
+import styles     from './styles.css';
 
 const propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
-}
+};
 
 export default class BlogPost extends React.Component {
   render() {
@@ -29,4 +28,4 @@ export default class BlogPost extends React.Component {
   }
 }
 
-BlogPost.PropTypes = propTypes
+BlogPost.PropTypes = propTypes;

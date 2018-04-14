@@ -1,12 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-import StyledText from '../components/styled-text'
-import SocialLinks from '../components/social-links'
-import ResumePDF from '../images/Resume_2018.pdf'
+import StyledText  from '../components/styled-text';
+import SocialLinks from '../components/social-links';
+import ResumePDF   from '../images/Resume_2018.pdf';
+import styles      from './styles.css';
 
-import styles from './styles.css'
-
-export default class Contact extends React.Component {
+export default class About extends React.Component {
   render() {
     return (
       <div className={[styles.aboutBody]}>

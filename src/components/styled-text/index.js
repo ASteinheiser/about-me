@@ -1,10 +1,10 @@
-import React, { PropTypes } from 'react'
-import classnames from 'classnames'
+import React, { PropTypes } from 'react';
+import classnames           from 'classnames';
 
-import styles from './styles.css'
+import styles from './styles.css';
 
-const TEXT_SIZES = ['regular', 'large', 'small', 'billboard']
-const TEXT_COLORS = ['white', 'gray', 'blue', 'black']
+const TEXT_SIZES  = ['regular', 'large', 'small', 'billboard'];
+const TEXT_COLORS = ['white', 'gray', 'blue', 'black'];
 
 const propTypes = {
   text: PropTypes.string.isRequired,
@@ -15,10 +15,9 @@ const propTypes = {
   hoverRed: PropTypes.boolean,
   topAlign: PropTypes.boolean,
   className: PropTypes.string,
-}
+};
 
 export default class StyledText extends React.Component {
-
   render() {
     const classes = classnames(
       styles[this.props.color],
@@ -32,7 +31,7 @@ export default class StyledText extends React.Component {
       { [`${styles.topAlign}`]: this.props.topAlign },
       this.props.className,
       styles.font
-    )
+    );
 
     return (
       <span className={classes}>
@@ -42,4 +41,4 @@ export default class StyledText extends React.Component {
   }
 }
 
-StyledText.PropTypes = propTypes
+StyledText.PropTypes = propTypes;

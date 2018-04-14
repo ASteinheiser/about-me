@@ -1,12 +1,7 @@
-import React, { PropTypes } from 'react'
+import React from 'react';
 
-import TopNav from '../components/top-nav'
-
-import styles from './styles.css'
-
-const propTypes = {
-  children: PropTypes.element.isRequired,
-}
+import TopNav from '../components/top-nav';
+import styles from './styles.css';
 
 export default class Navigation extends React.Component {
   render() {
@@ -22,5 +17,3 @@ export default class Navigation extends React.Component {
     )
   }
 }
-
-Navigation.propTypes = propTypes

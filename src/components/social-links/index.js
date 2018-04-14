@@ -1,12 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-import StyledText from '../styled-text'
-import hacksterLogo from '../../images/hackster.svg'
-
-import styles from './styles.css'
+import StyledText from '../styled-text';
+import styles     from './styles.css';
 
 export default class SocialLinks extends React.Component {
-
   render() {
     return (
       <div>
@@ -23,7 +20,6 @@ export default class SocialLinks extends React.Component {
           </a>
 
           <a target="_blank" href="https://www.hackster.io/andrewstein" className={[styles.socialButton]}>
-            <img className={[styles.hackster]} src={hacksterLogo} role="presentation" />
             <StyledText
               text="Hackster"
               size="small"
